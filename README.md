@@ -16,4 +16,4 @@ To add a new file it may be necessary to execute `git add -f <PATH>`, particular
 
 Other things that need configuring:
 
-- Cloudflared needs installing and running separately
+- Cloudflared needs installing and running separately. After cloning, update `/etc/systemd/system/cloudflared.service`, filling in the token as needed.

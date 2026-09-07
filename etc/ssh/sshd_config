@@ -1,0 +1,2 @@
+PubkeyAuthentication yes
+TrustedUserCAKeys /etc/ssh/ca.pub

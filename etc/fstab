@@ -1,0 +1,6 @@
+proc            /proc           proc    defaults          0       0
+PARTUUID=5a249ec0-01  /boot/firmware  vfat    defaults          0       2
+PARTUUID=5a249ec0-02  /               ext4    defaults,noatime,errors=remount-ro  0       1
+
+# UUID=990fe839-6047-4b0f-9746-0e1e7445e11b /srv ext4 defaults 0 2
+UUID=39193ac1-abfe-44e5-ad2c-03f85be4dc44 /srv ext4 rw,noexec,auto,nofail 0 2

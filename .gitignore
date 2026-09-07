@@ -1,4 +1,15 @@
 *
 !.gitignore
 !README.md
+
+!etc/apt/sources.list.d/*
 !etc/dnsmasq.conf
+!etc/exports
+!etc/fstab
+!etc/prometheus/prometheus.yml
+!etc/ssh/ca.pub
+!etc/ssh/sshd_config
+!etc/systemd/system/cloudflared*
+!srv/tftpboot/cmdline.txt
+!srv/tftpboot/config.txt
+!usr/lib/systemd/system/dnsmasq.service
